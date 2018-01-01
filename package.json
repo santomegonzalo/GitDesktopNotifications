@@ -1,0 +1,47 @@
+{
+  "name": "github-notification",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "main": "electron-starter.js",
+  "scripts": {
+    "start": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
+    "dev": "nf start"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "devtron": "^1.4.0",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "dexie": "^2.0.1",
+    "electron": "^1.7.10",
+    "electron-debug": "^1.4.0",
+    "electron-is-dev": "^0.3.0",
+    "electron-oauth2": "^3.0.0",
+    "foreman": "^2.0.0",
+    "immutable": "^3.8.2",
+    "material-ui": "^0.20.0",
+    "querystring": "^0.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "url": "^0.11.0"
+  }
+}
